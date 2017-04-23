@@ -1,0 +1,469 @@
+body {
+  width: 1000px;
+  margin: auto;
+  padding-top: 40px;
+}
+body header {
+  overflow: hidden;
+}
+body header .logo {
+  width: 258px;
+  height: 55px;
+  float: left;
+}
+body header .select {
+  float: right;
+  height: 55px;
+  line-height: 55px;
+}
+body header .select div {
+  display: inline-block;
+}
+body header .select .searchbox {
+  height: 24px;
+  margin-top: 10.5px;
+  border: 1px solid #909090;
+  line-height: 24px;
+  width: 420px;
+  position: relative;
+}
+body header .select .searchbox input {
+  height: 22px;
+  outline: none;
+  border: 0px;
+  text-indent: 12px;
+  width: 380px;
+  padding: 0px;
+}
+body header .select .searchbox i {
+  position: absolute;
+  right: 0px;
+  text-align: center;
+  width: 40px;
+}
+body header .select .searchbox i:hover {
+  cursor: pointer;
+}
+body header .select .language {
+  margin-left: 15px;
+}
+body header .select .language span {
+  margin: 0px 8px;
+}
+body header img {
+  width: 100%;
+}
+body nav {
+  height: 44px;
+  margin-top: 40px;
+}
+body nav > ul > li {
+  display: inline;
+  transition: all 0.2s ease-in;
+  position: relative;
+}
+body nav > ul > li:hover {
+  cursor: pointer;
+}
+body nav > ul > li:hover > a {
+  background: #434eaf;
+  color: white;
+}
+body nav > ul > li:hover ul {
+  display: block;
+}
+body nav > ul > li > a {
+  font-size: 14px;
+  padding: 15px 20px;
+  transition: all 0.2s ease-in;
+}
+body nav > ul > li ul {
+  position: absolute;
+  left: 0px;
+  z-index: 100;
+  top: 27px;
+  transition: all 0.2s ease-in;
+  width: 100%;
+  display: none;
+}
+body nav > ul > li ul li {
+  width: 100%;
+  height: 44px;
+  text-align: center;
+  line-height: 44px;
+  background: #f96f7d;
+  transition: all 0.2s ease-in;
+}
+body nav > ul > li ul li:hover {
+  background: #e55b69;
+}
+body nav > ul > li ul li:hover a {
+  color: white;
+}
+body nav > ul > li ul li a {
+  color: white;
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+body #lunbo {
+  width: 1000px;
+  height: 303px;
+  position: relative;
+}
+body #lunbo img {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  opacity: 0;
+  transition: all 0.5s ease-in;
+}
+body #lunbo img:nth-of-type(1) {
+  opacity: 1;
+}
+body #content {
+  margin: 20px 0px 40px 0px;
+  width: 1000px;
+  overflow: hidden;
+}
+body #content div {
+  float: left;
+  margin-right: 20px;
+  color: #333;
+  width: 283px;
+}
+body #content div div {
+  border-bottom: 1px solid #909090;
+}
+body #content div div:nth-last-of-type(1) {
+  border-bottom: 0px;
+}
+body #content div h2 {
+  font-size: 18px;
+  color: #666;
+}
+body #content .left img {
+  width: 283px;
+  height: 139px;
+}
+body #content .left .more {
+  display: inline-block;
+  color: #843e5d;
+  float: right;
+}
+body #content .left .more:hover {
+  color: #ff9934;
+}
+body #content .middle {
+  width: 394px;
+}
+body #content .middle div {
+  min-height: 400px;
+}
+body #content .middle .more {
+  float: right;
+  padding: 6px 12px;
+  border: 0px;
+  color: white;
+  background: #843e5d;
+  margin-top: -6px;
+}
+body #content .middle .more:hover {
+  color: #ff9934;
+}
+body #content .middle div {
+  width: 100%;
+}
+body #content .middle .title {
+  font-weight: bold;
+}
+body #content .middle ul {
+  list-style: circle;
+}
+body #content .middle ul li {
+  margin: 15px;
+  line-height: 28px;
+}
+body #content .middle .client {
+  font-size: 14px;
+  color: #434eaf;
+  font-weight: bold;
+  margin: 20px 0px;
+  padding-top: 20px;
+  border-top: 1px solid #EAEAEA;
+  display: block;
+}
+body #content .middle .client:hover {
+  color: #FF0033;
+  text-decoration: underline;
+}
+body #content .right {
+  margin-right: 0px;
+}
+body #content .right .more {
+  display: inline-block;
+  color: #843e5d;
+  float: right;
+}
+body #content .right .more:hover {
+  color: #ff9934;
+}
+body #content .right > div > a {
+  display: block;
+  margin: 30px 0px;
+  padding-left: 20px;
+}
+body #content .right > div > a:hover {
+  text-decoration: underline;
+  color: #FF0033;
+  cursor: pointer;
+}
+body #content .right > div > div {
+  border-bottom: 0px;
+  position: relative;
+  float: none;
+}
+body #content .right > div > div img {
+  width: 105px;
+  height: 145px;
+}
+body #content .right > div > div p {
+  text-align: right;
+  position: absolute;
+  top: 50%;
+  right: 0px;
+  max-width: 178px;
+  transform: translate3d(0, -50%, 0);
+}
+body #content .right > div > div a {
+  color: blue;
+}
+body #content .right > div > div a:hover {
+  color: #843e5d;
+}
+body #content .right ul {
+  list-style: disc;
+  padding-left: 20px;
+}
+body #content .right ul li {
+  line-height: 30px;
+  font-weight: bold;
+}
+body #bottom {
+  height: 160px;
+  width: 100%;
+  position: absolute;
+  left: 0px;
+  background: #666;
+  color: white;
+}
+body #bottom p {
+  line-height: 18px;
+}
+body #bottom a {
+  color: white;
+}
+body #bottom a:hover {
+  color: #ff9934;
+}
+body #bottom .left {
+  float: left;
+  margin-left: 10%;
+  margin-top: 30px;
+}
+body #bottom .right {
+  float: right;
+  margin-right: 10%;
+  margin-top: 30px;
+}
+body #bottom .right span {
+  margin: 0px 10px;
+}
+body #bottom .right img {
+  margin: 0px 5px;
+}
+a:hover {
+  color: #843e5d;
+}
+.title {
+  color: #00a0e9;
+}
+.orange {
+  color: #ff5300;
+}
+.strong {
+  font-weight: bold;
+  color: #9C27B0;
+}
+.indent {
+  text-indent: 28px;
+  color: #975248;
+}
+#detail {
+  margin-top: 20px;
+  overflow: hidden;
+}
+#detail h2 {
+  text-align: center;
+  font-size: 20px;
+  border-bottom: 1px solid #DDD;
+  padding-bottom: 20px;
+}
+#detail p {
+  margin: 30px 0px;
+  text-indent: 30px;
+}
+#detail p a {
+  color: blue;
+}
+#detail p a:hover {
+  color: #843e5d;
+}
+#detail .left {
+  width: 300px;
+  margin-right: 100px;
+  float: left;
+}
+#detail .left img {
+  width: 300px;
+}
+#detail .left p {
+  line-height: 40px;
+}
+#detail .left .strong {
+  font-size: 18px;
+  line-height: 20px;
+  margin: 30px 0px 0px 0px;
+}
+#detail .left .orange {
+  font-size: 18px;
+  line-height: 20px;
+  margin: 30px 0px 0px 0px;
+}
+#detail .right {
+  float: left;
+  width: 600px;
+}
+#detail .right .title {
+  font-weight: bold;
+}
+#detail .right ul {
+  list-style: circle;
+}
+#detail .right ul li {
+  margin: 15px;
+  line-height: 28px;
+}
+#detail .right ul li .client {
+  font-size: 14px;
+  color: #434eaf;
+  font-weight: bold;
+  margin: 20px 0px;
+  padding-top: 20px;
+  display: block;
+}
+#detail .right ul li .client:hover {
+  color: #FF0033;
+  text-decoration: underline;
+}
+#detail .right ul li .strong:hover {
+  color: #FF0033;
+  text-decoration: underline;
+}
+#person {
+  margin-top: 20px;
+  overflow: hidden;
+}
+#person h2 {
+  text-align: center;
+  font-size: 20px;
+  border-bottom: 1px solid #DDD;
+  padding-bottom: 20px;
+}
+#person p {
+  margin: 30px 0px;
+  text-indent: 30px;
+}
+#person p a {
+  color: blue;
+}
+#person p a:hover {
+  color: #843e5d;
+}
+#person ul {
+  padding-left: 15px;
+  list-style: disc;
+}
+#person ul li {
+  font-size: 13px;
+  font-weight: bold;
+  line-height: 28px;
+}
+#person .left {
+  width: 197px;
+  margin-right: 103px;
+  float: left;
+}
+#person .left img {
+  width: 197px;
+}
+#person .left .introduction {
+  font-weight: bold;
+  color: black;
+  text-indent: 0px;
+  padding: 0px 10px;
+}
+#person .left p {
+  line-height: 40px;
+  text-indent: 16px;
+}
+#person .left .strong {
+  font-size: 18px;
+  line-height: 20px;
+  margin: 30px 0px 0px 0px;
+}
+#person .right {
+  float: left;
+  width: 700px;
+}
+#person .right .title {
+  font-weight: bold;
+}
+#person .right ul {
+  list-style: circle;
+}
+#person .right ul li {
+  margin: 15px;
+  line-height: 28px;
+}
+#person .right ul li .client {
+  font-size: 14px;
+  color: #434eaf;
+  font-weight: bold;
+  margin: 20px 0px;
+  padding-top: 20px;
+  border-top: 1px solid #EAEAEA;
+  display: block;
+}
+#person .right ul li .client:hover {
+  color: #FF0033;
+  text-decoration: underline;
+}
+@font-face {
+  font-family: "iconfont";
+  src: url('http://gongrong.applinzi.com/fonts/iconfont.eot?t=1461747676');
+  /* IE9*/
+  src: url('http://gongrong.applinzi.com/fonts/iconfont.eot?t=1461747676#iefix') format('embedded-opentype'), /* IE6-IE8 */ url('http://gongrong.applinzi.com/fonts/iconfont.woff?t=1461747676') format('woff'), /* chrome, firefox */ url('http://gongrong.applinzi.com/fonts/iconfont.ttf?t=1461747676') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/ url('http://gongrong.applinzi.com/fonts/iconfont.svg?t=1461747676#iconfont') format('svg');
+  /* iOS 4.1- */
+}
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-stroke-width: 0.2px;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-search:before {
+  content: "\e600";
+}
